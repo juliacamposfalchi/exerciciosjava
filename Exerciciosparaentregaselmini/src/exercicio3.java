@@ -55,7 +55,7 @@ public class exercicio3 {
 	int certo[] = new int[nalunos];
 	 for (int i= 0; i < nalunos; i++) {
 		 for (int j = 0; j < 10; j++) { 
-			 if (gabarito [j] == resposta [i][j]) { 
+			 if (gabarito [j].equals(resposta [i][j])) { 
 				 certo [i] = certo [i] + 1;
 				 
 			 }
